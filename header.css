@@ -1,0 +1,290 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(62, 68, 68);
+}
+.logo {
+    position: relative;
+    top: 5px;
+    padding: 10px;
+    height: 50px;
+    width: 120px;
+}
+.box {
+    margin-left: 10px;
+    height: 65px;
+    width: 180px;
+    position: relative;
+    top: -32px;
+    display: inline-block;
+    background-color: rgb(32, 32, 31);
+    color: rgb(197, 193, 193);
+}
+.boxh1 {
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header2 {
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading {
+    display: inline-block;
+    position: relative;
+    left: -230px;
+    color: white;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    margin-right: 40px;
+    color: rgb(145, 139, 139);
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    color: rgb(23, 143, 87);
+}
+a.active {
+    color: rgb(23, 143, 87);
+}
+i {
+    height: 50px;
+    margin-right: 30px;
+    color: rgb(145, 139, 139);
+    position: relative;
+    top: 15px;
+    left: 250px;
+}
+ section {
+    background-color: black;
+} 
+div {
+    display: inline-block;
+    margin-right: 20px;
+}
+.frame1 {
+    position: relative;
+    margin-bottom: 20px;
+    left: 20px;
+    height: 350px;
+    width: 420px;
+    background-image: url(https://preview.colorlib.com/theme/photosen/images/img_1.jpg);
+    background-size: contain;
+
+}
+.frame2 {
+    position: relative;
+    margin-bottom: 20px;
+    left: 20px;
+    height: 350px;
+    width: 420px;
+    background-image: url(https://preview.colorlib.com/theme/photosen/images/img_2.jpg);
+    background-size: cover;
+}
+.frame3 {
+    position: relative;
+    margin-bottom: 20px;
+    left: 20px;
+    height: 350px;
+    width: 420px;
+    background-image: url(https://preview.colorlib.com/theme/photosen/images/img_3.jpg);
+    background-size: contain;
+}
+.frame4 {
+    position: relative;
+    margin-bottom: 20px;
+    left: 20px;
+    height: 350px;
+    width: 420px;
+    background-image: url(https://preview.colorlib.com/theme/photosen/images/img_4.jpg);
+    background-size: cover;
+}
+.frame5 {
+    position: relative;
+    margin-bottom: 20px;
+    left: 20px;
+    height: 350px;
+    width: 420px;
+    background-image: url(https://preview.colorlib.com/theme/photosen/images/img_5.jpg);
+    background-size: cover;
+}
+.frame6 {
+    position: relative;
+    margin-bottom: 20px;
+    left: 20px;
+    height: 350px;
+    width: 420px;
+    background-image: url(https://preview.colorlib.com/theme/photosen/images/img_6.jpg);
+    background-size: cover;
+}
+.frame7 {
+    position: relative;
+    margin-bottom: 20px;
+    left: 20px;
+    height: 350px;
+    width: 420px;
+    background-image: url(https://preview.colorlib.com/theme/photosen/images/img_7.jpg);
+    background-size: contain;
+}
+.frame8 {
+    position: relative;
+    margin-bottom: 20px;
+    left: 20px;
+    height: 350px;
+    width: 420px;
+    background-image: url(https://preview.colorlib.com/theme/photosen/images/img_3.jpg);
+    background-size: cover;
+}
+.frame9 {
+    position: relative;
+    margin-bottom: 20px;
+    left: 20px;
+    height: 350px;
+    width: 420px;
+    background-image: url(https://preview.colorlib.com/theme/photosen/images/img_4.jpg);
+    background-size: cover;
+}
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(7, 7, 7);
+    padding-bottom: 24px;
+    padding-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header 1 */
+.header {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(62, 68, 68);
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+.logo {
+    height: 50px;
+    width: 120px;
+}
+.box {
+    margin-left: 10px;
+    background-color: rgb(32, 32, 31);
+    color: rgb(197, 193, 193);
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.boxh1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header 2 */
+.header2 {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.heading {
+    color: white;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+}
+.nav-links a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: rgb(145, 139, 139);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-links a:hover,
+.nav-links a.active {
+    color: rgb(23, 143, 87);
+}
+.social-icons i {
+    margin: 0 10px;
+    color: rgb(145, 139, 139);
+}
+
+/* Gallery Section */
+section {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.frame {
+    flex: 1 1 calc(33.33% - 20px);
+    max-width: 420px;
+    height: 350px;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Footer */
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(7, 7, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .frame {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+@media (max-width: 480px) {
+    .frame {
+        flex: 1 1 100%;
+    }
+    .header2 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .heading {
+        margin-bottom: 10px;
+    }
+    .nav-links {
+        margin-bottom: 10px;
+    }
+}
