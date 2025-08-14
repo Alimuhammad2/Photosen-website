@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- <header class="header">
+        <img class="logo" src="https://preview.colorlib.com/assets/img/logo.png" alt="logo">
+        <div class="box">
+            <h1 class="boxh1">+ PHOTOSEN</h1>
+        </div>
+    </header>
+
+   
+    <header class="header2">
+        <h1 class="heading">Photosen</h1>
+        <nav class="nav-links">
+            <a href="index.html">HOME</a>
+            
+        <div class="dropdown">
+        <a href="#">GALLERY ▼</a>
+            <div class="dropdown-content">
+                <a href="#">Nature</a>
+                <a href="#">Portrait</a>
+                <a href="#">People</a>
+                <a href="#">Architecture</a>
+                <a href="#">Animals</a>
+                <a href="#">Sports</a>
+                <a href="#">Travel</a>
+       
+                <div class="submenu-parent">
+                <a href="#">Sub Menu ▸</a>
+                <div class="submenu">
+                <a href="#">Menu One</a>
+                <a href="#">Menu Two</a>
+                <a href="#">Menu Three</a>
+                </div>
+                </div>
+                </div>
+        </div>
+            <a href="services.html">SERVICES</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html" class="active">CONTACT</a>
+        </nav>
+        <div class="social-icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+</header> -->
+
+
+<div id="header"></div>
+
+    <div class="contactmain">
+        <div class="contactheading">
+                <h1>Contact</h1>
+            </div>
+        <div class="contactcontainer">
+            
+            <div class="contactform">
+                <div class="fname">
+                <label for="fname">First Name</label>
+                <input type="text">
+                </div>
+                <div class="lname">
+                <label for="lname">Last Name</label>
+                <input type="text">
+                </div>
+                <div class="email">
+                <label for="email">Email</label>
+                <input type="email">
+                </div>
+                <div class="subject">
+                <label for="subject">Subject</label>
+                <input type="text">
+                </div>
+                <div class="message">
+                <label for="message">Message</label>
+                <textarea name="message" placeholder="Write your notes or question here..."></textarea>
+                </div>
+                <div class="sendmessage">
+                    <button>Send Message</button>
+                </div>
+            </div>
+            <div class="detailcontainer">
+                <div class="addresscontainer">
+                    <h3>Address</h3>
+                    <p>203 Fake St. Mountain View, San <br> Francisco, California, USA</p>
+                </div>
+                <div class="phonecontainer">
+                    <h3>Phone</h3>
+                    <a href="#">+1 232 3235 324</a>
+                </div>
+                <div class="emailaddress">
+                    <h3>Email Address</h3>
+                    <a href="#">youremail@domain.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <!-- <footer>
+        Copyright ©2025 All rights reserved | This template is made with ❤️ by Ali Muhammad
+    </footer> -->
+
+    <div id="footer"></div>
+
+<script>
+    // Load Header
+    fetch("header.html")
+        .then(res => res.text())
+        .then(data => document.getElementById("header").innerHTML = data);
+
+    // Load Footer
+    fetch("footer.html")
+        .then(res => res.text())
+        .then(data => document.getElementById("footer").innerHTML = data);
+</script>
+
+</body>
+</html>

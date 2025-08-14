@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Services</title>
+</head>
+<body>
+    
+    <!-- <header class="header">
+        <img class="logo" src="https://preview.colorlib.com/assets/img/logo.png" alt="logo">
+        <div class="box">
+            <h1 class="boxh1">+ PHOTOSEN</h1>
+        </div>
+    </header>
+
+    <header class="header2">
+        <h1 class="heading">Photosen</h1>
+        <nav class="nav-links">
+            <a href="./index.html">HOME</a>
+          
+        <div class="dropdown">
+        <a href="#">GALLERY ▼</a>
+            <div class="dropdown-content">
+                <a href="#">Nature</a>
+                <a href="#">Portrait</a>
+                <a href="#">People</a>
+                <a href="#">Architecture</a>
+                <a href="#">Animals</a>
+                <a href="#">Sports</a>
+                <a href="#">Travel</a>
+             
+                <div class="submenu-parent">
+                <a href="#">Sub Menu ▸</a>
+                <div class="submenu">
+                <a href="#">Menu One</a>
+                <a href="#">Menu Two</a>
+                <a href="#">Menu Three</a>
+                </div>
+                </div>
+                </div>
+        </div>
+            <a href="services.html" class="active">SERVICES</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+        <div class="social-icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    </header> -->
+
+    <div id="header"></div>
+
+    <h1 class="services-heading">My Services</h1>
+
+    <section>
+        <div class="serviceframe">
+            <div class="service-content">
+                <i class="fas fa-camera fa-4x"></i>
+                <h2>Camera</h2>
+                 <p>Lorem ipsum dolor sit amet consectetur<br>
+               adipisicing elit. Rerum exercitationem quae<br>
+               id dolorum debitis.</p>
+                <span class="price">$29</span>
+            </div>
+        </div>
+        <div class="serviceframe">
+            <div class="service-content">
+                <i class="fas fa-heart fa-4x"></i>
+                <h2>Wedding Photography</h2>
+                 <p>Lorem ipsum dolor sit amet consectetur<br>
+               adipisicing elit. Rerum exercitationem quae<br>
+               id dolorum debitis.</p>
+                <span class="price">$46</span>
+            </div>
+        </div>
+        <div class="serviceframe">
+            <div class="service-content">
+                <i class="fas fa-paw fa-4x"></i>
+                <h2>Animal</h2>
+                 <p>Lorem ipsum dolor sit amet consectetur<br>
+               adipisicing elit. Rerum exercitationem quae<br>
+               id dolorum debitis.</p>
+                <span class="price">$24</span>
+            </div>
+        </div>
+        <div class="serviceframe">
+            <div class="service-content">
+                <i class="fas fa-user fa-4x"></i>
+                <h2>Portrait</h2>
+                 <p>Lorem ipsum dolor sit amet consectetur<br>
+               adipisicing elit. Rerum exercitationem quae<br>
+               id dolorum debitis.</p>
+                <span class="price">$40</span>
+            </div>
+        </div>
+        <div class="serviceframe">
+            <div class="service-content">
+                <i class="fas fa-plane fa-4x"></i>
+                <h2>Travel</h2>
+                <p>Lorem ipsum dolor sit amet consectetur<br>
+               adipisicing elit. Rerum exercitationem quae<br>
+               id dolorum debitis.</p>
+                <span class="price">$35</span>
+            </div>
+        </div>
+        <div class="serviceframe">
+            <div class="service-content">
+                <i class="fas fa-video fa-4x"></i>
+                <h2>Video Editing</h2>
+                 <p>Lorem ipsum dolor sit amet consectetur<br>
+               adipisicing elit. Rerum exercitationem quae<br>
+               id dolorum debitis.</p>
+                <span class="price">$15</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- <footer>
+        Copyright ©2025 All rights reserved | This template is made with ❤️ by Ali Muhammad
+    </footer> -->
+
+    <div id="footer"></div>
+
+    <script>
+    // Load Header
+    fetch("header.html")
+        .then(res => res.text())
+        .then(data => document.getElementById("header").innerHTML = data);
+
+    // Load Footer
+    fetch("footer.html")
+        .then(res => res.text())
+        .then(data => document.getElementById("footer").innerHTML = data);
+</script>
+
+</body>
+</html>
